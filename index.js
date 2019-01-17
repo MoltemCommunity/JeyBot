@@ -13,7 +13,7 @@ var info = new Discord.RichEmbed()
         .setDescription("```C'est Mivo#8967 Qui m'a développé```")
         .setColor("#00ffe2")
 
-bot.login("NTIwNzM4NTQ4ODgyODY2MTc3.Duyafw.mSqiLreGmjJh0BwbPmZw4oIplvA")
+bot.login(process.env.BOT_TOKEN);
 
 bot.on("ready", () => {
     bot.user.setActivity('"Jey & Dimond, *help"')
